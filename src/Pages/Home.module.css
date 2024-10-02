@@ -1,0 +1,474 @@
+:root {
+  --GRD24: linear-gradient(67deg, #ebf0fa 100%, #ebf0fa 100%, #7499f100);
+}
+
+.homeSection {
+  position: relative;
+  background: var(
+    --GRD24,
+    linear-gradient(
+      67deg,
+      #ebf0fa 0%,
+      #ebf0fa 48.4%,
+      rgba(116, 153, 241, 0) 272.62%
+    )
+  );
+  box-shadow: 0px 4px 4px 0px rgba(43, 53, 130, 0.1);
+  height: 100vh;
+  padding-top: 5rem;
+}
+
+.section {
+  background: var(
+    --GRD24,
+    linear-gradient(
+      67deg,
+      #ebf0fa 0%,
+      #ebf0fa 48.4%,
+      rgba(116, 153, 241, 0) 272.62%
+    )
+  );
+  box-shadow: 0px 4px 4px 0px rgba(43, 53, 130, 0.1);
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+}
+
+.homeContainer {
+  position: relative;
+  max-width: 1300px;
+  padding: 0 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 1rem 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  background: #f3f7ff;
+  box-shadow: 0px 4px 10px 2px rgba(118, 82, 183, 0.15);
+  padding-bottom: 1rem;
+}
+
+.homeContainer > * + * {
+  margin-top: 2rem;
+}
+
+.articleOne > * + * {
+  margin-top: 1rem;
+  z-index: 1;
+}
+
+.text1 {
+  color: #0d2c7b;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1875rem;
+}
+
+.heading {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.22rem;
+  color: #5847c4;
+}
+
+.text3 {
+  color: #2a206d;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn {
+  display: flex;
+  padding: 1.1875rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.125rem;
+  border-radius: 0.125rem;
+  background: #6450e0;
+  color: #ebf0fa;
+}
+
+.circleBigMobile {
+  position: absolute;
+  bottom: 100px;
+}
+.circleSmallMobile {
+  position: absolute;
+  top: 200px;
+  right: 0px;
+}
+
+.circleBigDesktop,
+.circleSmallDesktop {
+  display: none;
+}
+
+.patnerContainer {
+  position: absolute;
+  bottom: 0px;
+  background: var(
+    --grd3,
+    linear-gradient(179deg, rgba(118, 82, 183, 0.76) -74.8%, #7983dc 99.3%)
+  );
+  backdrop-filter: blur(5px);
+  display: inline-flex;
+  padding: 1.3125rem 8.32088rem 1.3125rem 8.375rem;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  left: 0;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*********************** FORM SECTION ******************************/
+.formSection,
+.aboutSection {
+  background: #e6eaf1;
+  position: relative;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+.formContainer > * + * {
+  margin-top: 2rem;
+}
+
+.formContent > * + * {
+  margin: 0.7rem;
+}
+
+.formHeading {
+  color: #001039;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.formHeading2 {
+  color: #000;
+
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/*********************** ABOUT SECTION ******************************/
+
+.aboutContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.aboutContainer > * + * {
+  margin-top: 1rem;
+}
+
+.aboutHeading {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 141.023%; /* 2.11531rem */
+  background: var(
+    --inter,
+    linear-gradient(179deg, #5847c4 0.5%, #4d0a76 258.79%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tesSection {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card1 > * + * {
+  margin-top: 1rem;
+}
+.card2 > * + * {
+  margin-top: 1rem;
+}
+.card3 > * + * {
+  margin-top: 1rem;
+}
+
+.testimonialContainer > * + * {
+  margin-top: 1rem;
+}
+
+.card1 {
+  border-radius: 0.3125rem;
+  background: #e4ebfc;
+  padding: 2.75rem 1.3125rem 2.78125rem 1.375rem;
+}
+
+.card2 {
+  border-radius: 0.3125rem;
+  background: #eee6fe;
+  padding: 2.75rem 1.3125rem 2.78125rem 1.375rem;
+}
+.card3 {
+  border-radius: 0.3125rem;
+  background: #f1eadc;
+
+  padding: 2.75rem 1.3125rem 2.78125rem 1.375rem;
+}
+
+.reviews {
+  color: #0d2c7b;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+  line-height: 141.023%; /* 2.82044rem */
+}
+
+.roundImg {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.ctaSection {
+  background: #e6eaf1;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.ctaContainer {
+  border-radius: 0.8125rem;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+
+  background: var(
+    --grdLst,
+    linear-gradient(169deg, #6450e0 -32.75%, #8c7afb 91.58%)
+  );
+}
+
+.ctaTitle {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ctaBtn {
+  display: flex;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+  border-radius: 0.3125rem;
+  border: 2.5px solid #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titleContainer > * + * {
+  margin-top: 1rem;
+}
+
+.partnerImagesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 918px) {
+  .homeSection {
+    padding-top: 10rem;
+    position: relative;
+  }
+  .homeContainer {
+    display: flex;
+    position: relative;
+  }
+
+  .text1 {
+    color: #0d2c7b;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.3rem;
+  }
+
+  .heading {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.33rem;
+    background: var(
+      --inter,
+      linear-gradient(179deg, #5847c4 0.5%, #4d0a76 258.79%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text3 {
+    color: #2a206d;
+    font-size: 1.5rem;
+    width: 90%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .circleBigMobile,
+  .circleSmallMobile {
+    display: none;
+  }
+
+  .circleBigDesktop {
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+
+  .circleSmallDesktop {
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+
+  /****************************** FORM SECTION  ***********************/
+  .formHeading {
+    color: #001039;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .formHeading2 {
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .formText {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*********************** ABOUT SECTION ******************************/
+  .aboutText {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .aboutHeading {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 141.023%; /* 2.11531rem */
+    background: var(
+      --inter,
+      linear-gradient(179deg, #5847c4 0.5%, #4d0a76 258.79%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .testimonialContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 3rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+
+  .card1 {
+    border-radius: 0.3125rem;
+    background: #e4ebfc;
+
+    transform: rotate(-5deg);
+    padding: 2.75rem 1.3125rem 2.78125rem 1.375rem;
+  }
+  .card2 {
+    border-radius: 0.3125rem;
+    background: #eee6fe;
+    padding: 2.75rem 1.3125rem 2.78125rem 1.375rem;
+  }
+  .card3 {
+    border-radius: 0.3125rem;
+    background: #f1eadc;
+
+    transform: rotate(-5deg);
+    padding: 2.75rem 1.3125rem 2.78125rem 1.375rem;
+  }
+
+  .ctaContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
+  .ctaTitle {
+    font-size: 3rem;
+    text-align: left;
+  }
+
+  .ctaBtn {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .imageSide {
+    order: 1;
+  }
+}
